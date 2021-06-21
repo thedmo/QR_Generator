@@ -10,7 +10,7 @@ namespace QR_gen {
 			bool endApplication = false;
 
 			string directoryPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), "MyQrCodes");
-			string filename = Path.Combine(directoryPath, "MyQr", DateTime.Now.ToString("yyyyMMdd_HHmmss"));
+			string filename = Path.Combine(directoryPath, "MyQr_" + DateTime.Now.ToString("yyyyMMdd_HHmmss"));
 
 
 
